@@ -68,7 +68,7 @@ ________________________________________________________________________________
 3. Klasa Shape powinna mieć zdefiniowaną prze nas jedną specjalną metodę poza `isIn`, każda klasa bazowa w polimorfiźmie powinna.
 4. Pamiętajcie o słówku kluczowym `override` przy metodzie `isIn`.
 ____________________________________________________________________________________
-## Najczęstrze błędy/pytania/problemy:
+## Najczęstsze błędy/pytania/problemy:
 1. Zaimplementowałem metodę klasy w pliku źródłowym dodałem `using namespace Shapes`, a linker sygnalizuje, że niezdefiniowałem Shapes::Klasa::metoda.
    1. `using namespace` nie dodanie do danej przestrzeni nazw czegokolwiek, to jedynie powoduje dostęp do składowych tej przestrzeni nazw tak jakby jej nie było.
       Dlatego nie ma wyjścia - trzeba zdefiniować metodę w taki sposób `... Shapes::Klasa::metoda(...) {...}`
@@ -81,6 +81,8 @@ ________________________________________________________________________________
 4. Napisałem klasę `Rectangle`, która dziedziczy po `Shape`, a kompilator sygnalizuje jakby nie było dziedziczenia.
    1. Domyślnie dziedziczenie w C++ jest prywatne, należy więc pamiętać o słówku `public`.
    2. Czy zdefiniowano klasę w odpowiedniej przestrzeni nazw?
+5. Po co jest struktura `Shapes::Point`?
+   1. Można jej użyć aby trzymać współrzędne X i Y.
 **/
 
 namespace Shapes

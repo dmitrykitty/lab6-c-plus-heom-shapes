@@ -90,6 +90,8 @@ ________________________________________________________________________________
 4. Napisałem klasę `Rectangle`, która dziedziczy po `Shape`, a kompilator sygnalizuje jakby nie było dziedziczenia.
    1. Domyślnie dziedziczenie w C++ jest prywatne, należy więc pamiętać o słówku `public`.
    2. Czy zdefiniowano klasę w odpowiedniej przestrzeni nazw?
+5. Po co jest struktura `Shapes::Point`?
+   1. Można jej użyć aby trzymać współrzędne X i Y.
 ____________________________________________________________________________________
 # Pytania po implementacji ćwiczenia:
 1. (Jak macie pomysł to podrzućcie)
