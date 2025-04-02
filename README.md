@@ -42,6 +42,8 @@ Implementacja klasy czysto abstrakcyjnej `Shape`, majacej funkcje opisane niżej
     2. operacje na zbiorach `enum class ShapeOperation`: `INTERSECTION`, `SUM`, `DIFFERENCE`
     3. w oparciu o to bedzie mozna cala hierarchie figur polaczyc w jedno drzewo,
        dla ktorego bedzie mozna zapytac czy dany punkt jest w hierarchii, czy nie (metoda `isIn`).
+    4. **UWAGA: Linux rozróżnia wielkość liter w przeciwieństwie do Windowsa. 
+       Proszę ustawić nazwę klasy dokładnie na: `shapecomposite.h`.**
 5. Opcjonalnie mozna sobie zaimplementowac klase `Stage` rysujaca na konsole.
 ____________________________________________________________________________________
 
@@ -85,6 +87,7 @@ ________________________________________________________________________________
    1. To wynika z faktu, że "aktywowanie" odpowiedniej części kodu odbywa się na etapie kompilacji - tam jest wykrywane czy plik istnieje czy nie.
       Aby skompilowały się testy musi się zmienić coś w pliku testów lub w pliku includowanym.
       **Konkretnie: po dodaniu pliku przebuduj cały projekt!**
+      **Może być też konieczne przeładowanie konfiguracji CMake'a.**
 3. Jak zaimplementowac `isIn` dla kola?
    1. Matematyka - czy odległość punktu od środka koła jest nie większa niż promień.
 4. Napisałem klasę `Rectangle`, która dziedziczy po `Shape`, a kompilator sygnalizuje jakby nie było dziedziczenia.

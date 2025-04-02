@@ -18,6 +18,8 @@
     2. operacje na zbiorach `enum class ShapeOperation`: `INTERSECTION`, `SUM`, `DIFFERENCE`
     3. w oparciu o to bedzie mozna cala hierarchie figur polaczyc w jedno drzewo,
        dla ktorego bedzie mozna zapytac czy dany punkt jest w hierarchii, czy nie (metoda `isIn`).
+    4. **UWAGA: Linux rozróżnia wielkość liter w przeciwieństwie do Windowsa. 
+       Proszę ustawić nazwę klasy dokładnie na: `shapecomposite.h`.**
 5. Opcjonalnie mozna sobie zaimplementowac klase `Stage` rysujaca na konsole.
 ________________________
 Przyklad obrazka jaki można osiągnąć komponując dwa kształty przy pomocy operacji na zbiorach:

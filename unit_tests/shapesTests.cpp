@@ -169,7 +169,7 @@ TEST_F(CircleTester, constructorOfCircleStartingInBeginningOfCoordinateSystem)
 
     ASSERT_EQ(xCenter, circle.x());
     ASSERT_EQ(yCenter, circle.y());
-    ASSERT_EQ(radius,  circle.getRadius());
+    ASSERT_EQ(radius,  circle.radius());
 #else
     ADD_FAILURE() << "Circle not implemented!";
 #endif
