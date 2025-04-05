@@ -55,36 +55,39 @@ ________________________________________________________________________________
 Wszystkie atrybuty powinny być prywatne, konstruktory i metody - publiczne,
 metody większe niż 1-linijkowe powinny być zadeklarowane w klasie, zdefiniowane
 poza klasą, obiekty typów klasowych powinny być w miarę możliwości przekazywane
-w argumentach funkcji przez referencję, proszę też stosować słówko "const" w
-odpowiednich miejscach.
+w argumentach funkcji przez referencję, proszę też stosować słówko `const` w
+odpowiednich miejscach. Wszystkie metody, które mogą być stałe proszę aby były.
 @note Co się da na listę inicjalizacyjną konstruktora.
 
-Mozna tworzyc dowolna ilosc metod pomocniczych, jednakze aby byly one prywatne.
+1. Mozna tworzyc dowolna ilosc metod pomocniczych, jednakze aby byly one prywatne.
+2. Gettery i settery operujace na liczbach, ktore nie rzucaja wyjatku, warto zadeklarowac jako `noexcept`.
+3. Co się da na listę inicjalizacyjną konstruktora.
+4. Za złe zarządzanie pamięcią (wycieki, pisanie poza pamięcią) powodują odejmowanie punktów
 
 ## Punktacja:
-Na maksa przejście wszystkich testów i niepoprawnych operacji na pamieci (m.in. wyciekow pamieci)
+Na maksa przejście wszystkich testów i niepoprawnych operacji na pamieci (m.in. wyciekow pamieci czy pisanie po nieswojej pamieci).
 ____________________________________________________________________________________
 ## Podpowiedzi:
 1. Warto sobie stworzyć pomocniczą strukturę Point do trzymania współrzędnych.
 2. Proszę pamiętać o dodawaniu klas w przestrzeni nazw Shapes
-3. Klasa Shape powinna mieć zdefiniowaną prze nas jedną specjalną metodę poza `isIn`, każda klasa bazowa w polimorfiźmie powinna.
-4. Pamiętajcie o słówku kluczowym `override` przy metodzie `isIn`.
+3. Klasa Shape powinna mieć zdefiniowaną przez nas jedną specjalną metodę poza `isIn`, każda klasa bazowa w polimorfiźmie powinna.
+4. Pamiętajcie o słówku kluczowym `override` przy metodzie `isIn` - to jest dobra praktyka.
 ____________________________________________________________________________________
 ## Najczęstsze błędy/pytania/problemy:
-1. Zaimplementowałem metodę klasy w pliku źródłowym dodałem `using namespace Shapes`, a linker sygnalizuje, że niezdefiniowałem Shapes::Klasa::metoda.
+1. Zaimplementowałem metodę klasy w pliku źródłowym dodałem `using namespace Shapes`, a linker sygnalizuje, że niezdefiniowałem `Shapes::Klasa::metoda`.
    1. `using namespace` nie dodanie do danej przestrzeni nazw czegokolwiek, to jedynie powoduje dostęp do składowych tej przestrzeni nazw tak jakby jej nie było.
       Dlatego nie ma wyjścia - trzeba zdefiniować metodę w taki sposób `... Shapes::Klasa::metoda(...) {...}`
 2. Dodałem plik z implementacją danej klasy, a testy uparcie twierdzą, że nie.
    1. To wynika z faktu, że "aktywowanie" odpowiedniej części kodu odbywa się na etapie kompilacji - tam jest wykrywane czy plik istnieje czy nie.
       Aby skompilowały się testy musi się zmienić coś w pliku testów lub w pliku includowanym.
-      **Konkretnie: po dodaniu pliku przebuduj cały projekt!**
+      **Konkretnie: po dodaniu pliku przeładuj konfiguracje CMake'a, oraz przebuduj cały projekt!**
 3. Jak zaimplementowac `isIn` dla kola?
    1. Matematyka - czy odległość punktu od środka koła jest nie większa niż promień.
 4. Napisałem klasę `Rectangle`, która dziedziczy po `Shape`, a kompilator sygnalizuje jakby nie było dziedziczenia.
    1. Domyślnie dziedziczenie w C++ jest prywatne, należy więc pamiętać o słówku `public`.
    2. Czy zdefiniowano klasę w odpowiedniej przestrzeni nazw?
 5. Po co jest struktura `Shapes::Point`?
-   1. Można jej użyć aby trzymać współrzędne X i Y.
+   1. Można jej użyć aby trzymać współrzędne X i Y, ale nie jest to konieczne.
 **/
 
 namespace Shapes
