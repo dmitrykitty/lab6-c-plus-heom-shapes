@@ -1,10 +1,13 @@
-#include <cmath> /// sin(), floor()
+#include <cmath>   /// sin(), floor()
+#include <cstddef> /// std::size_t
+#include <string>  /// std::string
+
 #include <gtest/gtest.h>
 
 #if __has_include("../shape.h")
-    #include "../shape.h"
+    #include "../shape.h"  // IWYU pragma: keep
 #elif __has_include("shape.h")
-    #include "shape.h"
+    #include "shape.h"     // IWYU pragma: keep
 #else
     #error "File 'shape.h' not found!"
 #endif
@@ -54,7 +57,7 @@ using Shapes::Shape;
     constexpr double M_PI = 3.1415926;
 #endif
 
-void printShape(const Shapes::Shape* shape, size_t width, size_t heigh)
+[[maybe_unused]] void printShape(const Shapes::Shape* shape, size_t width, size_t heigh)
 {
     #ifdef STAGE_H_EXISTS
         const Stage stage(width, heigh);

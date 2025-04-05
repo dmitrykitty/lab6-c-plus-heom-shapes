@@ -4,6 +4,7 @@ project(zad3SimpleVector_dlaStudentow)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
+set(UNIT_TEST_DIRECTORY "unit_tests")
 
 if (CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
     include(CheckCXXCompilerFlag)
@@ -34,6 +35,28 @@ if (NOT CMAKE_SYSTEM_NAME MATCHES "Windows" AND CMAKE_CXX_COMPILER_ID MATCHES "G
         message(WARNING "Brak wymaganych bibliotek (libasan/libubsan). Możesz je zainstalować: na Fedora przez: sudo yum install libasan libubsan")
     endif()
 endif()
+
+# include-what-you-use (IWYU)
+find_program(IWYU_PATH NAMES include-what-you-use iwyu)
+
+if (IWYU_PATH)
+    message(STATUS "Znaleziono include-what-you-use: ${IWYU_PATH}")
+
+    # Przekieruj kompilację przez IWYU
+    set(CMAKE_CXX_INCLUDE_WHAT_YOU_USE ${IWYU_PATH})
+
+    # Ustaw mapowanie IWYU (jeśli plik istnieje)
+    set(IWYU_MAPPING_FILE "${CMAKE_SOURCE_DIR}/${UNIT_TEST_DIRECTORY}/include-what-you-use_exceptions.imp")
+    if(EXISTS ${IWYU_MAPPING_FILE})
+        set(CMAKE_CXX_INCLUDE_WHAT_YOU_USE "${IWYU_PATH};-Xiwyu;--mapping_file=${IWYU_MAPPING_FILE}")
+        message(STATUS "Używany mapping IWYU: ${IWYU_MAPPING_FILE}")
+    else()
+        message(WARNING "Brak pliku mappingu IWYU: ${IWYU_MAPPING_FILE}")
+    endif()
+else()
+    message(WARNING "Nie znaleziono include-what-you-use. Możesz zainstalować")
+endif()
+
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)  # for cppcheck To generate compile_commands.json
 
@@ -122,4 +145,4 @@ if (CPPCHECK)
 endif()
 
 ############ dodanie podprojektu z testami:
-add_subdirectory(unit_tests)
+add_subdirectory(${UNIT_TEST_DIRECTORY})
