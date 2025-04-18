@@ -1,8 +1,9 @@
-#pragma once
-#include "shape.h"
-
 #ifndef RECTANGLE_H
 #define RECTANGLE_H
+
+#include "shape.h"
+
+
 
 namespace Shapes {
     class Rectangle : public Shape {

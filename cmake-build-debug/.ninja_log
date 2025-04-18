@@ -1,19 +1,14 @@
 # ninja log v6
 17	2822	7666302905638092	unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	6d553b88dbaffa2a
 11515	15890	7666303020627293	lib/libgtest.a	40969e1b276f99eb
-22	3362	7666302905693250	unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj	d2f5d51f9202265f
-10	11513	7666302905578083	unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	622f16b5a134634
-15890	15965	7666303064365762	lib/libgtest_main.a	f4bc60cce656163e
-15965	21368	7666303065127238	bin/unit_tests.exe	f9afa2229e4eb817
-19	111	7667168468785756	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
-19	100	7667168733909135	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
-16	90	7667169495925629	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
-16	98	7667171019167826	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
-10	2595	7667171019107837	unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj	d2f5d51f9202265f
-10	91	7667172902773283	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
-91	5096	7667172903597095	bin/unit_tests.exe	cce2a29d8bab801a
-8	96	7667173399425045	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
-96	5177	7667173400305435	bin/unit_tests.exe	cce2a29d8bab801a
 16	108	7667174122999492	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
 9	2164	7667174122929497	unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj	d2f5d51f9202265f
+10	11513	7666302905578083	unit_tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	622f16b5a134634
+15890	15965	7666303064365762	lib/libgtest_main.a	f4bc60cce656163e
 2164	7170	7667174144482576	bin/unit_tests.exe	cce2a29d8bab801a
+16	112	7667191533324582	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
+7	2347	7667191533225816	unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj	d2f5d51f9202265f
+10	401	7667192472954440	unit_tests/CMakeFiles/unit_tests.dir/__/Circle.cpp.obj	40698b1c6d491cd6
+401	5528	7667192476873942	bin/unit_tests.exe	c1cc6dccf291b48c
+10	333	7667192928035257	unit_tests/CMakeFiles/unit_tests.dir/__/Circle.cpp.obj	40698b1c6d491cd6
+333	5286	7667192931273359	bin/unit_tests.exe	c1cc6dccf291b48c

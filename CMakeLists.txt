@@ -89,7 +89,8 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
    add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES} "${CMAKE_CURRENT_SOURCE_DIR}/README.md")
 else()
    add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES}
-           Rectangle.h)
+           Rectangle.h
+           Circle.h)
 endif()
 
 
