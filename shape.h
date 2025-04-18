@@ -100,7 +100,8 @@ struct Point
 class Shape
 {    
 public:
-    // TODO: ...
+   virtual bool isIn(int x, int y) const = 0;
+   virtual ~Shape() = default;
 };
 } // namespace Shapes
 
