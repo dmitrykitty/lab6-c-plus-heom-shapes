@@ -16,11 +16,11 @@
 -- Looking for __ubsan_handle_add_overflow in ubsan - found
 -- Sanitizers (AddressSanitizer + UndefinedBehaviorSanitizer) są dostępne
 -- Znaleziono include-what-you-use: /usr/bin/include-what-you-use
--- Używany mapping IWYU: /tmp/tmpydgw8y2c/student/unit_tests/include-what-you-use_exceptions.imp
-Katalog do zbudowanego projektu: /tmp/tmpydgw8y2c/student/build
- + Znaleziono nagłówki: /tmp/tmpydgw8y2c/student/Circle.h;/tmp/tmpydgw8y2c/student/Rectangle.h;/tmp/tmpydgw8y2c/student/shape.h
- + Znaleziono źródła: /tmp/tmpydgw8y2c/student/Circle.cpp;/tmp/tmpydgw8y2c/student/Rectangle.cpp;/tmp/tmpydgw8y2c/student/main.cpp
- + Znaleziono źródła bez main.cpp: /tmp/tmpydgw8y2c/student/Circle.cpp;/tmp/tmpydgw8y2c/student/Rectangle.cpp
+-- Używany mapping IWYU: /tmp/tmpzf619r6v/student/unit_tests/include-what-you-use_exceptions.imp
+Katalog do zbudowanego projektu: /tmp/tmpzf619r6v/student/build
+ + Znaleziono nagłówki: /tmp/tmpzf619r6v/student/Circle.h;/tmp/tmpzf619r6v/student/Rectangle.h;/tmp/tmpzf619r6v/student/ShapeComposite.h;/tmp/tmpzf619r6v/student/shape.h
+ + Znaleziono źródła: /tmp/tmpzf619r6v/student/Circle.cpp;/tmp/tmpzf619r6v/student/Rectangle.cpp;/tmp/tmpzf619r6v/student/ShapeComposite.cpp;/tmp/tmpzf619r6v/student/main.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmpzf619r6v/student/Circle.cpp;/tmp/tmpzf619r6v/student/Rectangle.cpp;/tmp/tmpzf619r6v/student/ShapeComposite.cpp
 	* valgrind found: /usr/bin/valgrind
 	* cppcheck found: /usr/local/bin/cppcheck
 -- Looking for pthread.h
@@ -28,8 +28,8 @@ Katalog do zbudowanego projektu: /tmp/tmpydgw8y2c/student/build
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
- + Znaleziono pliki testów: /tmp/tmpydgw8y2c/student/unit_tests/shapesTests.cpp
+ + Znaleziono pliki testów: /tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp
  + katalog nagłówków: 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/tmpydgw8y2c/student/build
+-- Build files have been written to: /tmp/tmpzf619r6v/student/build

@@ -1,3 +1,0 @@
-/tmp/tmpydgw8y2c/student/Circle.cpp:4:0: warning: The function 'isIn' is never used. [unusedFunction]
-bool Shapes::Circle::isIn(int x, int y) const{
-^
