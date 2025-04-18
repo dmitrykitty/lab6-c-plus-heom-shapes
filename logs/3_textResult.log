@@ -1,27 +1,27 @@
-Running main() from /tmp/tmpdrxr4ode/student/unit_tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmpwkup903c/student/unit_tests/lib/googletest/src/gtest_main.cc
 [==========] Running 12 tests from 3 test suites.
 [----------] Global test environment set-up.
 [----------] 4 tests from RectangleTester
 [ RUN      ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:94: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:94: Failure
 Failed
 Rectangle not implemented!
 
 [  FAILED  ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate (0 ms)
 [ RUN      ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:113: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:113: Failure
 Failed
 Rectangle not implemented!
 
 [  FAILED  ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:132: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:132: Failure
 Failed
 Rectangle not implemented!
 
 [  FAILED  ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:147: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:147: Failure
 Failed
 Rectangle not implemented!
 
@@ -30,25 +30,25 @@ Rectangle not implemented!
 
 [----------] 4 tests from CircleTester
 [ RUN      ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:177: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:177: Failure
 Failed
 Circle not implemented!
 
 [  FAILED  ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:214: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:214: Failure
 Failed
 Circle not implemented!
 
 [  FAILED  ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:246: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:246: Failure
 Failed
 Circle not implemented!
 
 [  FAILED  ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] CircleTester.constructorOfCircleWithRadiusEqualToZero
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:261: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:261: Failure
 Failed
 Circle not implemented!
 
@@ -57,25 +57,25 @@ Circle not implemented!
 
 [----------] 4 tests from ShapeCompositeTester
 [ RUN      ] ShapeCompositeTester.sumOfSqhareAndCircle
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:322: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:322: Failure
 Failed
 Required classes not implemented not implemented!
 
 [  FAILED  ] ShapeCompositeTester.sumOfSqhareAndCircle (0 ms)
 [ RUN      ] ShapeCompositeTester.intersectionOfSqhareAndCircle
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:379: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:379: Failure
 Failed
 Required classes not implemented not implemented!
 
 [  FAILED  ] ShapeCompositeTester.intersectionOfSqhareAndCircle (0 ms)
 [ RUN      ] ShapeCompositeTester.differenceOfSqhareAndCircle
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:434: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:434: Failure
 Failed
 Required classes not implemented not implemented!
 
 [  FAILED  ] ShapeCompositeTester.differenceOfSqhareAndCircle (0 ms)
 [ RUN      ] ShapeCompositeTester.drawingHouse
-/tmp/tmpdrxr4ode/student/unit_tests/shapesTests.cpp:498: Failure
+/tmp/tmpwkup903c/student/unit_tests/shapesTests.cpp:498: Failure
 Failed
 Required classes not implemented not implemented!
 
@@ -83,7 +83,7 @@ Required classes not implemented not implemented!
 [----------] 4 tests from ShapeCompositeTester (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 12 tests from 3 test suites ran. (4 ms total)
+[==========] 12 tests from 3 test suites ran. (5 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 12 tests, listed below:
 [  FAILED  ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate
