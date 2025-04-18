@@ -3,7 +3,7 @@
   "failures": 12,
   "disabled": 0,
   "errors": 0,
-  "timestamp": "2025-04-18T22:15:28Z",
+  "timestamp": "2025-04-18T22:45:29Z",
   "time": "0.005s",
   "name": "AllTests",
   "testsuites": [
@@ -13,69 +13,69 @@
       "failures": 4,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2025-04-18T22:15:28Z",
+      "timestamp": "2025-04-18T22:45:29Z",
       "time": "0.001s",
       "testsuite": [
         {
           "name": "constructorOfRectangleStartingInBeginningOfSystemCoordinate",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 83,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "RectangleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:94\nFailed\nRectangle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:94\nFailed\nRectangle not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "isInMethodOfRectangleStartingInBeginningOfCoordinateSystem",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 98,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "RectangleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:113\nFailed\nRectangle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:113\nFailed\nRectangle not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 117,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "RectangleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:132\nFailed\nRectangle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:132\nFailed\nRectangle not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "constructorOfRectangleWithBothSitesEqualToZero",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 136,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "RectangleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:147\nFailed\nRectangle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:147\nFailed\nRectangle not implemented!\n",
               "type": ""
             }
           ]
@@ -88,69 +88,69 @@
       "failures": 4,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2025-04-18T22:15:28Z",
+      "timestamp": "2025-04-18T22:45:29Z",
       "time": "0.001s",
       "testsuite": [
         {
           "name": "constructorOfCircleStartingInBeginningOfCoordinateSystem",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 151,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "CircleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:177\nFailed\nCircle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:177\nFailed\nCircle not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "isInMethodOfCircleStartingInBeginningOfCoordinateSystem",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 181,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "CircleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:214\nFailed\nCircle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:214\nFailed\nCircle not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 218,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "CircleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:246\nFailed\nCircle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:246\nFailed\nCircle not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "constructorOfCircleWithRadiusEqualToZero",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 250,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "CircleTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:261\nFailed\nCircle not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:261\nFailed\nCircle not implemented!\n",
               "type": ""
             }
           ]
@@ -163,69 +163,69 @@
       "failures": 4,
       "disabled": 0,
       "errors": 0,
-      "timestamp": "2025-04-18T22:15:28Z",
+      "timestamp": "2025-04-18T22:45:29Z",
       "time": "0.001s",
       "testsuite": [
         {
           "name": "sumOfSqhareAndCircle",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 266,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "ShapeCompositeTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:322\nFailed\nRequired classes not implemented not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:322\nFailed\nRequired classes not implemented not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "intersectionOfSqhareAndCircle",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 326,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "ShapeCompositeTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:379\nFailed\nRequired classes not implemented not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:379\nFailed\nRequired classes not implemented not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "differenceOfSqhareAndCircle",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 383,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "ShapeCompositeTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:434\nFailed\nRequired classes not implemented not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:434\nFailed\nRequired classes not implemented not implemented!\n",
               "type": ""
             }
           ]
         },
         {
           "name": "drawingHouse",
-          "file": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp",
+          "file": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp",
           "line": 438,
           "status": "RUN",
           "result": "COMPLETED",
-          "timestamp": "2025-04-18T22:15:28Z",
+          "timestamp": "2025-04-18T22:45:29Z",
           "time": "0s",
           "classname": "ShapeCompositeTester",
           "failures": [
             {
-              "failure": "\/tmp\/tmpwkup903c\/student\/unit_tests\/shapesTests.cpp:498\nFailed\nRequired classes not implemented not implemented!\n",
+              "failure": "\/tmp\/tmpydgw8y2c\/student\/unit_tests\/shapesTests.cpp:498\nFailed\nRequired classes not implemented not implemented!\n",
               "type": ""
             }
           ]
