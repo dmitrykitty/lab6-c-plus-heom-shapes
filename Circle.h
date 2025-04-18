@@ -1,5 +1,5 @@
-#ifndef CIRCLE_H
-#define CIRCLE_H
+#ifndef CIRCLE_H_EXISTS
+#define CIRCLE_H_EXISTS
 
 #include "shape.h"
 
@@ -20,6 +20,6 @@ namespace Shapes {
         bool isIn(int x, int y) const override;
     };
 
-
-#endif //CIRCLE_H
 }
+
+#endif //CIRCLE_H_EXISTS

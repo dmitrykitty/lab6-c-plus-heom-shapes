@@ -61,6 +61,12 @@ build CMakeFiles/zad3SimpleVector_dlaStudentow.dir/Rectangle.cpp.obj: CXX_COMPIL
   OBJECT_DIR = CMakeFiles\zad3SimpleVector_dlaStudentow.dir
   OBJECT_FILE_DIR = CMakeFiles\zad3SimpleVector_dlaStudentow.dir
 
+build CMakeFiles/zad3SimpleVector_dlaStudentow.dir/ShapeComposite.cpp.obj: CXX_COMPILER__zad3SimpleVector_dlaStudentow_unscanned_Debug D$:/study/AGH/LAB_C_plus/LAB6/ShapeComposite.cpp || cmake_object_order_depends_target_zad3SimpleVector_dlaStudentow
+  DEP_FILE = CMakeFiles\zad3SimpleVector_dlaStudentow.dir\ShapeComposite.cpp.obj.d
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -g -std=c++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\zad3SimpleVector_dlaStudentow.dir
+  OBJECT_FILE_DIR = CMakeFiles\zad3SimpleVector_dlaStudentow.dir
+
 build CMakeFiles/zad3SimpleVector_dlaStudentow.dir/main.cpp.obj: CXX_COMPILER__zad3SimpleVector_dlaStudentow_unscanned_Debug D$:/study/AGH/LAB_C_plus/LAB6/main.cpp || cmake_object_order_depends_target_zad3SimpleVector_dlaStudentow
   DEP_FILE = CMakeFiles\zad3SimpleVector_dlaStudentow.dir\main.cpp.obj.d
   FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -g -std=c++23 -fdiagnostics-color=always
@@ -75,7 +81,7 @@ build CMakeFiles/zad3SimpleVector_dlaStudentow.dir/main.cpp.obj: CXX_COMPILER__z
 #############################################
 # Link the executable bin\zad3SimpleVector_dlaStudentow.exe
 
-build bin/zad3SimpleVector_dlaStudentow.exe: CXX_EXECUTABLE_LINKER__zad3SimpleVector_dlaStudentow_Debug CMakeFiles/zad3SimpleVector_dlaStudentow.dir/Circle.cpp.obj CMakeFiles/zad3SimpleVector_dlaStudentow.dir/Rectangle.cpp.obj CMakeFiles/zad3SimpleVector_dlaStudentow.dir/main.cpp.obj
+build bin/zad3SimpleVector_dlaStudentow.exe: CXX_EXECUTABLE_LINKER__zad3SimpleVector_dlaStudentow_Debug CMakeFiles/zad3SimpleVector_dlaStudentow.dir/Circle.cpp.obj CMakeFiles/zad3SimpleVector_dlaStudentow.dir/Rectangle.cpp.obj CMakeFiles/zad3SimpleVector_dlaStudentow.dir/ShapeComposite.cpp.obj CMakeFiles/zad3SimpleVector_dlaStudentow.dir/main.cpp.obj
   FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\zad3SimpleVector_dlaStudentow.dir
@@ -193,14 +199,14 @@ build CMakeFiles/zip | ${cmake_ninja_workdir}CMakeFiles/zip: CUSTOM_COMMAND
 # Custom command for CMakeFiles\format
 
 build CMakeFiles/format | ${cmake_ninja_workdir}CMakeFiles/format: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\study\AGH\LAB_C_plus\LAB6\cmake-build-debug && clang-format -i -style=Google D:/study/AGH/LAB_C_plus/LAB6/Circle.cpp D:/study/AGH/LAB_C_plus/LAB6/Rectangle.cpp D:/study/AGH/LAB_C_plus/LAB6/main.cpp"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\study\AGH\LAB_C_plus\LAB6\cmake-build-debug && clang-format -i -style=Google D:/study/AGH/LAB_C_plus/LAB6/Circle.cpp D:/study/AGH/LAB_C_plus/LAB6/Rectangle.cpp D:/study/AGH/LAB_C_plus/LAB6/ShapeComposite.cpp D:/study/AGH/LAB_C_plus/LAB6/main.cpp"
 
 
 #############################################
 # Custom command for CMakeFiles\ctags
 
 build CMakeFiles/ctags | ${cmake_ninja_workdir}CMakeFiles/ctags: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\study\AGH\LAB_C_plus\LAB6\cmake-build-debug && ctags -x --c++-types=f --extras --format=1 D:/study/AGH/LAB_C_plus/LAB6/Circle.h D:/study/AGH/LAB_C_plus/LAB6/Rectangle.h D:/study/AGH/LAB_C_plus/LAB6/shape.h D:/study/AGH/LAB_C_plus/LAB6/Circle.cpp D:/study/AGH/LAB_C_plus/LAB6/Rectangle.cpp"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\study\AGH\LAB_C_plus\LAB6\cmake-build-debug && ctags -x --c++-types=f --extras --format=1 D:/study/AGH/LAB_C_plus/LAB6/Circle.h D:/study/AGH/LAB_C_plus/LAB6/Rectangle.h D:/study/AGH/LAB_C_plus/LAB6/ShapeComposite.h D:/study/AGH/LAB_C_plus/LAB6/shape.h D:/study/AGH/LAB_C_plus/LAB6/Circle.cpp D:/study/AGH/LAB_C_plus/LAB6/Rectangle.cpp D:/study/AGH/LAB_C_plus/LAB6/ShapeComposite.cpp"
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
@@ -237,6 +243,13 @@ build unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj: CXX_COMPILER__u
   OBJECT_DIR = unit_tests\CMakeFiles\unit_tests.dir
   OBJECT_FILE_DIR = unit_tests\CMakeFiles\unit_tests.dir\__
 
+build unit_tests/CMakeFiles/unit_tests.dir/__/ShapeComposite.cpp.obj: CXX_COMPILER__unit_tests_unscanned_Debug D$:/study/AGH/LAB_C_plus/LAB6/ShapeComposite.cpp || cmake_object_order_depends_target_unit_tests
+  DEP_FILE = unit_tests\CMakeFiles\unit_tests.dir\__\ShapeComposite.cpp.obj.d
+  FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -g -std=c++23 -fdiagnostics-color=always
+  INCLUDES = -isystem D:/study/AGH/LAB_C_plus/LAB6/unit_tests/lib/googletest/include -isystem D:/study/AGH/LAB_C_plus/LAB6/unit_tests/lib/googletest
+  OBJECT_DIR = unit_tests\CMakeFiles\unit_tests.dir
+  OBJECT_FILE_DIR = unit_tests\CMakeFiles\unit_tests.dir\__
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target unit_tests
@@ -245,7 +258,7 @@ build unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj: CXX_COMPILER__u
 #############################################
 # Link the executable bin\unit_tests.exe
 
-build bin/unit_tests.exe: CXX_EXECUTABLE_LINKER__unit_tests_Debug unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj unit_tests/CMakeFiles/unit_tests.dir/__/Circle.cpp.obj unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build bin/unit_tests.exe: CXX_EXECUTABLE_LINKER__unit_tests_Debug unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj unit_tests/CMakeFiles/unit_tests.dir/__/Circle.cpp.obj unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj unit_tests/CMakeFiles/unit_tests.dir/__/ShapeComposite.cpp.obj | lib/libgtest.a lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   FLAGS = --std=c++23 -Wall -Wextra -pedantic -Wno-error=deprecated-declarations -g
   LINK_LIBRARIES = lib/libgtest.a  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = unit_tests\CMakeFiles\unit_tests.dir

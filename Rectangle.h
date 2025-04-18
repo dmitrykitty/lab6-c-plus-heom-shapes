@@ -1,5 +1,5 @@
-#ifndef RECTANGLE_H
-#define RECTANGLE_H
+#ifndef RECTANGLE_H_EXISTS
+#define RECTANGLE_H_EXISTS
 
 #include "shape.h"
 
@@ -22,4 +22,4 @@ namespace Shapes {
         bool isIn(int x, int y) const override;
     };
 }
-#endif //RECTANGLE_H
+#endif //RECTANGLE_H_EXISTS
