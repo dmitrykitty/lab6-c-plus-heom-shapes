@@ -4,9 +4,21 @@
 [ 33%] Building CXX object unit_tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
 [ 44%] Linking CXX static library ../../../lib/libgtest_main.a
 [ 44%] Built target gtest_main
-[ 55%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.o
-[ 66%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/circle.cpp.o
+[ 55%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/circle.cpp.o
+[ 66%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.o
 [ 77%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/rectangle.cpp.o
-[ 88%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/shapeComposite.cpp.o
-[100%] Linking CXX executable ../bin/unit_tests
-[100%] Built target unit_tests
+[ 88%] Building CXX object unit_tests/CMakeFiles/unit_tests.dir/__/shapeomposite.cpp.o
+/tmp/tmp57ouiv03/student/shapeomposite.cpp:1:10: fatal error: shapeComposite.h: No such file or directory
+    1 | #include "shapeComposite.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [unit_tests/CMakeFiles/unit_tests.dir/build.make:118: unit_tests/CMakeFiles/unit_tests.dir/__/shapeomposite.cpp.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+/tmp/tmp57ouiv03/student/unit_tests/shapesTests.cpp:33:14: fatal error: ../shapeComposite.h: No such file or directory
+   33 |     #include "../shapeComposite.h"
+      |              ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[3]: *** [unit_tests/CMakeFiles/unit_tests.dir/build.make:76: unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.o] Error 1
+make[2]: *** [CMakeFiles/Makefile2:345: unit_tests/CMakeFiles/unit_tests.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:352: unit_tests/CMakeFiles/unit_tests.dir/rule] Error 2
+make: *** [Makefile:260: unit_tests] Error 2

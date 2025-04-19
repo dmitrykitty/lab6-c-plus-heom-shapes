@@ -16,11 +16,11 @@
 -- Looking for __ubsan_handle_add_overflow in ubsan - found
 -- Sanitizers (AddressSanitizer + UndefinedBehaviorSanitizer) są dostępne
 -- Znaleziono include-what-you-use: /usr/bin/include-what-you-use
--- Używany mapping IWYU: /tmp/tmp8vj6hhe1/student/unit_tests/include-what-you-use_exceptions.imp
-Katalog do zbudowanego projektu: /tmp/tmp8vj6hhe1/student/build
- + Znaleziono nagłówki: /tmp/tmp8vj6hhe1/student/circle.h;/tmp/tmp8vj6hhe1/student/rectangle.h;/tmp/tmp8vj6hhe1/student/shape.h;/tmp/tmp8vj6hhe1/student/shapeComposite.h
- + Znaleziono źródła: /tmp/tmp8vj6hhe1/student/circle.cpp;/tmp/tmp8vj6hhe1/student/main.cpp;/tmp/tmp8vj6hhe1/student/rectangle.cpp;/tmp/tmp8vj6hhe1/student/shapeComposite.cpp
- + Znaleziono źródła bez main.cpp: /tmp/tmp8vj6hhe1/student/circle.cpp;/tmp/tmp8vj6hhe1/student/rectangle.cpp;/tmp/tmp8vj6hhe1/student/shapeComposite.cpp
+-- Używany mapping IWYU: /tmp/tmp57ouiv03/student/unit_tests/include-what-you-use_exceptions.imp
+Katalog do zbudowanego projektu: /tmp/tmp57ouiv03/student/build
+ + Znaleziono nagłówki: /tmp/tmp57ouiv03/student/circle.h;/tmp/tmp57ouiv03/student/rectangle.h;/tmp/tmp57ouiv03/student/shape.h;/tmp/tmp57ouiv03/student/shapecomposite.h
+ + Znaleziono źródła: /tmp/tmp57ouiv03/student/circle.cpp;/tmp/tmp57ouiv03/student/main.cpp;/tmp/tmp57ouiv03/student/rectangle.cpp;/tmp/tmp57ouiv03/student/shapeomposite.cpp
+ + Znaleziono źródła bez main.cpp: /tmp/tmp57ouiv03/student/circle.cpp;/tmp/tmp57ouiv03/student/rectangle.cpp;/tmp/tmp57ouiv03/student/shapeomposite.cpp
 	* valgrind found: /usr/bin/valgrind
 	* cppcheck found: /usr/local/bin/cppcheck
 -- Looking for pthread.h
@@ -28,8 +28,8 @@ Katalog do zbudowanego projektu: /tmp/tmp8vj6hhe1/student/build
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
 -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
 -- Found Threads: TRUE  
- + Znaleziono pliki testów: /tmp/tmp8vj6hhe1/student/unit_tests/shapesTests.cpp
+ + Znaleziono pliki testów: /tmp/tmp57ouiv03/student/unit_tests/shapesTests.cpp
  + katalog nagłówków: 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /tmp/tmp8vj6hhe1/student/build
+-- Build files have been written to: /tmp/tmp57ouiv03/student/build
