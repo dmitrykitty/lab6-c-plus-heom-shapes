@@ -1,4 +1,4 @@
-#include "shapeComposite.h"
+#include "shapecomposite.h"
 
 bool Shapes::ShapeComposite::isIn(int x, int y) const {
     switch (operation) {

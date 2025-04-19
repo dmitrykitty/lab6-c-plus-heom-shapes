@@ -30,7 +30,7 @@
 
 
 #if __has_include("../shapecomposite.h")
-    #include "../shapeComposite.h"
+    #include "../shapecomposite.h"
 #define SHAPECOMPOSITE_H_EXISTS
 #elif __has_include("shapecomposite.h")
     #include "shapecomposite.h"

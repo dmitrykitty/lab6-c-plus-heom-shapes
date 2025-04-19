@@ -90,11 +90,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@4861b70fbc9a3a9bea20"
+			"id" : "gtest::@4861b70fbc9a3a9bea20"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@4861b70fbc9a3a9bea20"
+			"id" : "gtest_main::@4861b70fbc9a3a9bea20"
 		}
 	],
 	"id" : "unit_tests::@2bb15649ce016d6c8322",
@@ -163,19 +163,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Circle.cpp",
+			"path" : "circle.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Rectangle.cpp",
+			"path" : "rectangle.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ShapeComposite.cpp",
+			"path" : "shapeomposite.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

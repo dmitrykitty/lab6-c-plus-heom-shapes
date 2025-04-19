@@ -91,7 +91,7 @@ else()
    add_executable(${PROJECT_NAME} ${HEADERS} ${SOURCES}
            Rectangle.h
            Circle.h
-           ShapeComposite.h)
+           shapeComposite.h)
 endif()
 
 
