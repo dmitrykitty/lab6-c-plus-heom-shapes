@@ -1,81 +1,49 @@
-Running main() from /tmp/tmpzf619r6v/student/unit_tests/lib/googletest/src/gtest_main.cc
+Running main() from /tmp/tmp8vj6hhe1/student/unit_tests/lib/googletest/src/gtest_main.cc
 [==========] Running 12 tests from 3 test suites.
 [----------] Global test environment set-up.
 [----------] 4 tests from RectangleTester
 [ RUN      ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:94: Failure
-Failed
-Rectangle not implemented!
-
-[  FAILED  ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate (0 ms)
+[       OK ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate (0 ms)
 [ RUN      ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:113: Failure
-Failed
-Rectangle not implemented!
-
-[  FAILED  ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem (0 ms)
+[       OK ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:132: Failure
-Failed
-Rectangle not implemented!
-
-[  FAILED  ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem (0 ms)
+[       OK ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:147: Failure
-Failed
-Rectangle not implemented!
-
-[  FAILED  ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero (0 ms)
-[----------] 4 tests from RectangleTester (1 ms total)
+[       OK ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero (0 ms)
+[----------] 4 tests from RectangleTester (0 ms total)
 
 [----------] 4 tests from CircleTester
 [ RUN      ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:177: Failure
-Failed
-Circle not implemented!
-
-[  FAILED  ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
+[       OK ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:214: Failure
-Failed
-Circle not implemented!
-
-[  FAILED  ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
+[       OK ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:246: Failure
-Failed
-Circle not implemented!
-
-[  FAILED  ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem (0 ms)
+[       OK ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem (0 ms)
 [ RUN      ] CircleTester.constructorOfCircleWithRadiusEqualToZero
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:261: Failure
-Failed
-Circle not implemented!
-
-[  FAILED  ] CircleTester.constructorOfCircleWithRadiusEqualToZero (0 ms)
-[----------] 4 tests from CircleTester (1 ms total)
+[       OK ] CircleTester.constructorOfCircleWithRadiusEqualToZero (0 ms)
+[----------] 4 tests from CircleTester (0 ms total)
 
 [----------] 4 tests from ShapeCompositeTester
 [ RUN      ] ShapeCompositeTester.sumOfSqhareAndCircle
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:322: Failure
+/tmp/tmp8vj6hhe1/student/unit_tests/shapesTests.cpp:322: Failure
 Failed
 Required classes not implemented not implemented!
 
 [  FAILED  ] ShapeCompositeTester.sumOfSqhareAndCircle (0 ms)
 [ RUN      ] ShapeCompositeTester.intersectionOfSqhareAndCircle
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:379: Failure
+/tmp/tmp8vj6hhe1/student/unit_tests/shapesTests.cpp:379: Failure
 Failed
 Required classes not implemented not implemented!
 
 [  FAILED  ] ShapeCompositeTester.intersectionOfSqhareAndCircle (0 ms)
 [ RUN      ] ShapeCompositeTester.differenceOfSqhareAndCircle
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:434: Failure
+/tmp/tmp8vj6hhe1/student/unit_tests/shapesTests.cpp:434: Failure
 Failed
 Required classes not implemented not implemented!
 
 [  FAILED  ] ShapeCompositeTester.differenceOfSqhareAndCircle (0 ms)
 [ RUN      ] ShapeCompositeTester.drawingHouse
-/tmp/tmpzf619r6v/student/unit_tests/shapesTests.cpp:498: Failure
+/tmp/tmp8vj6hhe1/student/unit_tests/shapesTests.cpp:498: Failure
 Failed
 Required classes not implemented not implemented!
 
@@ -83,20 +51,12 @@ Required classes not implemented not implemented!
 [----------] 4 tests from ShapeCompositeTester (1 ms total)
 
 [----------] Global test environment tear-down
-[==========] 12 tests from 3 test suites ran. (5 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 12 tests, listed below:
-[  FAILED  ] RectangleTester.constructorOfRectangleStartingInBeginningOfSystemCoordinate
-[  FAILED  ] RectangleTester.isInMethodOfRectangleStartingInBeginningOfCoordinateSystem
-[  FAILED  ] RectangleTester.isInMethodOfRectangleStartingNotInBeginningOfCoordinateSystem
-[  FAILED  ] RectangleTester.constructorOfRectangleWithBothSitesEqualToZero
-[  FAILED  ] CircleTester.constructorOfCircleStartingInBeginningOfCoordinateSystem
-[  FAILED  ] CircleTester.isInMethodOfCircleStartingInBeginningOfCoordinateSystem
-[  FAILED  ] CircleTester.isInMethodOfCircleStartingNotInBeginningOfCoordinateSystem
-[  FAILED  ] CircleTester.constructorOfCircleWithRadiusEqualToZero
+[==========] 12 tests from 3 test suites ran. (2 ms total)
+[  PASSED  ] 8 tests.
+[  FAILED  ] 4 tests, listed below:
 [  FAILED  ] ShapeCompositeTester.sumOfSqhareAndCircle
 [  FAILED  ] ShapeCompositeTester.intersectionOfSqhareAndCircle
 [  FAILED  ] ShapeCompositeTester.differenceOfSqhareAndCircle
 [  FAILED  ] ShapeCompositeTester.drawingHouse
 
-12 FAILED TESTS
+ 4 FAILED TESTS
