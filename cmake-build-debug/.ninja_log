@@ -16,3 +16,8 @@
 20	907	7667224227694672	unit_tests/CMakeFiles/unit_tests.dir/__/ShapeComposite.cpp.obj	3cc3e50207849da
 9	2366	7667224227594528	unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj	d2f5d51f9202265f
 2366	7454	7667224251157935	bin/unit_tests.exe	98a597792197d06f
+17	123	7667243393661776	unit_tests/CMakeFiles/unit_tests.dir/__/Rectangle.cpp.obj	ec2c794754642732
+13	471	7667243393621780	unit_tests/CMakeFiles/unit_tests.dir/__/Circle.cpp.obj	40698b1c6d491cd6
+22	947	7667243393711894	unit_tests/CMakeFiles/unit_tests.dir/__/ShapeComposite.cpp.obj	3cc3e50207849da
+8	2229	7667244852620699	unit_tests/CMakeFiles/unit_tests.dir/shapesTests.cpp.obj	d2f5d51f9202265f
+2230	7518	7667244874843487	bin/unit_tests.exe	98a597792197d06f

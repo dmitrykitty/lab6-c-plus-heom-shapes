@@ -14,7 +14,7 @@
 
 #if __has_include("../rectangle.h")
     #include "../rectangle.h"
-    #define RECTANGLE_H_EXISTS
+#define RECTANGLE_H_EXISTS
 #elif __has_include("rectangle.h")
     #include "rectangle.h"
     #define RECTANGLE_H_EXISTS
@@ -22,7 +22,7 @@
 
 #if __has_include("../circle.h")
     #include "../circle.h"
-    #define CIRCLE_H_EXISTS
+#define CIRCLE_H_EXISTS
 #elif __has_include("circle.h")
     #include "circle.h"
     #define CIRCLE_H_EXISTS
@@ -30,8 +30,8 @@
 
 
 #if __has_include("../shapecomposite.h")
-    #include "../shapecomposite.h"
-    #define SHAPECOMPOSITE_H_EXISTS
+    #include "../shapeComposite.h"
+#define SHAPECOMPOSITE_H_EXISTS
 #elif __has_include("shapecomposite.h")
     #include "shapecomposite.h"
     #define SHAPECOMPOSITE_H_EXISTS
